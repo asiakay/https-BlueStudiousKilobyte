@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+ /* .glass-panel {
+
+ font-family: Asap, cursive;  *//* background-color:black;  
+  color: #fff;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  /* width: 80%; 
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  }
+  */
+
+.glass-button {
+   display: inline-block;
+   padding: 24px 32px;
+/*    border: 0;
+ */   text-decoration: none;
+   border-radius: 15px;
+   background-color: rgba(255,255,255,0.1);
+   border: 1px solid rgba(255,255,255,0.1);
+   backdrop-filter: blur(30px);
+   color: rgba(255,255,255,0.8);
+   font-size: 24px;
+   letter-spacing: 2px;
+   cursor: pointer;
+   text-transform: uppercase;
+ }
+
+ .glass-button:hover {
+   background-color: rgba(255,255,255,0.2);
+ }

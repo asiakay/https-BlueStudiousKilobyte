@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Fjalla+One&family=Neonderthaw&family=Open+Sans:ital,wght@0,300;1,400&family=Permanent+Marker&display=swap');
+
+
+
+.soft{
+  width: 1000px;
+border-radius: 100px;
+background: #BEBEBE;
+box-shadow:  -1.25px -1.25px 3.5px #235f00,
+             1.25px 1.25px 3.5px #2f8100;
+}
+
+.soft:hover {
+border-radius: 100px;
+background: #297000;
+box-shadow:   -1.25px -1.25px 3.5px  #634806,
+              -1.25px -1.25px 3.5px  #634806;
+}
+
+/* social button */
+
+/* body {
+    text-align: left; */
+  /*   font-family: 'Calibri', sans-serif !important;
+    background-color: #4B5555
+}
+ */
+

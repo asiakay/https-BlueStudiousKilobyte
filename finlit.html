@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+<!-- setting the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>replit</title>
+    
+
+<!-- 
+  ❚█══FINLIT challenge══█❚   
+-->        
+
+<!-- 
+  USER STORIES 
+
+  OUTPUT: User can learn about expected outcomes of this challenge 
+
+  INPUT: Users can learn what is required to succeed in the success challenge
+
+  CONCERNS/CONDITIONS: Users can be notified that this challenge is not financial advice
+
+  EXAMPLES/EDGE CASES: 
+
+
+
+  User can interact with a game demo
+
+  User can see count of
+    correct answers ✅
+    incorrect answers ✅
+    financial literacy points ✅
+
+  User can see the number of 
+    incorrect answers with link to page for Day one of the challenge
+      if the score is between 0 and 48%
+      if the score is between 49% and 80%
+      if the score is above 80%
+ 
+  -->
+
+
+
+
+
+    <!-- custom css style -->
+    <link rel="stylesheet" href="style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="neo.css" rel="stylesheet" >
+    <link rel="stylesheet" href="glass.css" rel="stylesheet" >
+    <link rel="stylesheet" href="button.css" rel="stylesheet" >
+   <!-- <link rel="stylesheet" href="radio.css" rel="stylesheet" > -->
+ 
+  <!--   <link rel="stylesheet" href="toggle.css" rel="stylesheet" > -->
+    <!-- google font -->
+
+  </head>
+
+<body >
+<!-- onload="startGame()"
+ -->
+<div class="left">
+  <p>Left Menu</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+
+
+<!--  div -->
+
+<!-- div for centering the content -->
+<!-- <div class="center" name="center-content"> -->
+  <div class="glass-panel">
+
+<div class="topboxes">
+     <div class="topbox">
+
+
+      <h1>
+        <span class="challenge">
+        The</span><br>FIN<br>LIT<br><span class="challenge">Challenge</span>
+      </h1>
+     </div>
+     <
+    <h3>
+Wouldn't it be nice finding an extra $50 that turned into $500?
+</h3>
+
+
+
+<!-- intro text  -->
+<!-- pitch 1 -->
+    <p style="" class="intro">
+Are you feeling like you barely get by no matter how hard you work?
+</p>
+<p style="" class="intro">
+Are ready to manage your money from an informed perspective? 
+</p>
+<!-- pitch 3 -->
+<p style="" class="intro">
+Are you ready to have a more positive relationship with your finances, future, and behavior?
+</p>
+
+<!-- insert RULES -->
+
+<div name="rules" class="rules">
+      <h3>RULES</h3> 
+  <p class="rules">    Participants must agree to pay themselves 25% of their income - 15% to save, and 10% to invest.
+    </p>
+  <p class="rules"> Participants must not buy any one thing that they could not afford to buy five of.</p>
+  <p class="rules">Participants must keep track of their spending for the first 30 days to establish a budget. 
+<!-- <p style="font-family: Asap;">
+<center>Happy Try Day, <br>You tried it. </center>
+</p> -->
+</div><!-- .rules -->
+
+</div><!-- .topbox -->
+
+
+  </div>
+
+
+
+
+<!-- RULES -->
+    <h2>Join the financial literacy success challenge to turn $50 into $500 within 50 days. </h2>
+
+<div name="rules">
+      <h3>RULES</h3> 
+        <p class="rules">
+    Participants must agree to pay themselves 25% of their income - 15% to save, and 10% to invest.
+    </p>
+  <p class="rules">
+ Participants must not buy any one thing that they could not afford to buy five of.</p>
+<p class="rules">
+Participants must keep track of their spending for the first 30 days to establish a budget.
+</p> 
+<!-- <p style="font-family: Asap;">
+<center>Happy Try Day, <br>You tried it. </center>
+</p> -->
+</div><!-- .rules -->
+
+    </div> <!-- .topbox 1 -->
+
+  <div 
+
+
+
+
+  </div>
+<!--   <h1>
+    <span class="challenge">
+      The</span><br>FIN<br>LIT<br><span class="challenge">Challenge</span>
+  </h1> --> 
+  </div><!-- .topboxes -->
+  </div><!-- .glass-panel -->
+
+
+
+<!-- <div class="intro" name="prequal-intro">
+</div><!-- .prequal-intro --> 
+<div class="glass-panel" style="">
+
+<!-- div for showing questions to the user: users see quiz in this div   --> 
+<div class="topbox">
+        
+<div class="topboxes">
+  <h3>Challenge Onboard</h3></div>
+<div id="quiz" class="form-control"> <!-- this is quizContainer in the javascript  -->
+
+</div><!-- .div id="quiz" -->
+<button class="button-30" id="submit">Get Results</button> <!-- this is submitButton in the javascript -->
+ <div id="results" class="intro"> 
+   <!-- this is resultsContainer in the javascript -->
+   </div> <!-- .div id="results" -->
+<!-- <div style="margin: auto;">
+
+</div> -->
+
+
+
+
+
+
+
+</div><!-- .topbox -->
+</div><!-- .topbox -->
+
+<!-- div for user to see results in  -->
+   
+</div><!-- .glass-panel -->
+
+<!-- Rules div -->
+  <div class="glass-panel" style="">  
+      
+</div><!-- .glass-panel -->
+</div><!-- .center -->
+
+<div style="padding: 32px;">
+
+    <p style="font-size: 16px; text-align: center;">
+      <footer>Join the <b>FINLIT</b> financial success challenge to grow 50 dollars into 500 - in 50 days. The challenge is distributed via web platform. You control the simulation. This is not financial advice. </footer>  
+</p>
+</div><!-- .div center  -->
+
+<!-- javascript -->
+<script type="text/javascript">
+var myQuestions = [ /* questions loaded into quizContainer */
+	{
+		question: "Do you have a crypto wallet?",
+		answers: {
+			a: 'yes',
+			b: 'no'
+		},
+		correctAnswer: 'a'
+	},
+	{
+		question: "Do you have a bank account",
+		answers: {
+			a: 'yes',
+			b: 'no',
+		},
+		correctAnswer: 'a' 
+	}
+];
+
+
+
+var quizContainer = document.getElementById('quiz');
+var resultsContainer = document.getElementById('results');
+var submitButton = document.getElementById('submit');
+
+generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton); // out questions in json, the quiz div, the results div, and the submit button are the parameter references being input through this function
+
+function generateQuiz(questions, quizContainer, resultsContainer, submitButton){ // questions is the output that the user sees. resultsContainer is the results div. submitButton has an id of submit 
+
+	function showQuestions(questions, quizContainer){ // questions as displayed to the user, converted from json to html 
+		// we'll need a place to store the output and the answer choices
+		var output = [];
+		var answers;
+
+		// for each question...
+		for(var i=0; i<questions.length; i++){
+			
+			// first reset the list of answers
+			answers = [];
+
+   
+			// for each available answer...
+			for(letter in questions[i].answers){
+
+				// ...add an html radio button with the name="question"
+      
+answers.push(
+					'<label>'
+						+ '<input type="radio" name="question'+i+'" value="'+letter+'">'
+						+ letter + ': '
+						+ questions[i].answers[letter]
+					+ '</label><br></br>'
+				);
+			}
+
+
+			// add this question and its answers to the output
+			output.push(
+				'<div class="question">' + questions[i].question + '</div>'
+
+				+ 
+        
+        '<div class="answers">' + answers.join('') + '</div>'
+			);
+		}
+
+		// finally combine our output list into one string of html and put it on the page
+		quizContainer.innerHTML = output.join('');
+	}
+
+
+	function showResults(questions, quizContainer, resultsContainer){
+		
+		// gather answer containers from our quiz
+		var answerContainers = quizContainer.querySelectorAll('.answers');
+		
+		// keep track of user's answers
+		var userAnswer = '';
+    var numCorrect = 0;
+    var notCorrect = 0;
+
+
+/*     var numCorrect= 0;
+    var numInCorrect = 0;
+ 	  var highScore = 0;
+    var midScore = 0;
+    var lowScore = 0; */
+		
+		// for each question...
+		for(var i=0; i<questions.length; i++){
+
+			// find correct answer
+			userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
+			
+			// if answer is correct
+			if(userAnswer===questions[i].correctAnswer){
+				// add to the number of correct answers
+				numCorrect++;
+       	
+         answerContainers[i].style.color = 'green';
+
+        // if answer is incorrect
+      } else {
+        // add to the number of inCorrect answers 
+        notCorrect++
+        
+          answerContainers[i].style.color = 'red';
+   
+     // and color the answers red
+      
+      } 
+		}
+
+		// show number of answers out of total
+// correctAnswers
+resultsContainer.innerHTML =
+notCorrect + ' out of ' + questions.length + ' incorrect.<br>'
++ 'Correct answers = ' + numCorrect + ' out of ' + questions.length;
+
+
+
+/* resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length + ' <br> 
+notCorrect + ' out of ' + questions.length ; */
+
+// incorrectAnswers
+
+// partialAnswers
+	}
+
+	// show questions right away
+	showQuestions(questions, quizContainer);
+	
+	// on submit, show results
+	submitButton.onclick = function()
+  {
+		showResults(questions, quizContainer, resultsContainer);
+	}
+
+}
+
+
+</script>
+<!-- 10 dip commandments clip minority mindset interview wiyh  -->
+
+
+
+    <script src="script.js"></script>
+    <script src="game.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,95 @@
+/* HTML
+<div class="wrap">
+  <input type="radio" id="rad1" name="rads">
+  <label for="rad1"></label>
+  <input type="radio" id="rad2" name="rads" >
+  <label for="rad2"></label>
+  <input type="radio" id="rad3" name="rads">
+  <label for="rad3"></label>
+</div> */
+
+/* .wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  margin: 10px 10px;
+}
+
+label:before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: #59CA59;
+  border-radius: 50%;
+  z-index: 2;
+  transition: box-shadow .4s ease,
+          background .3s ease;
+}
+
+input:checked + label:before {
+  box-shadow: inset 0px 3px 0 2px rgba(89,202,89,1);
+  background: #fff;
+}
+ */
+/* 
+.form-control {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  
+}
+
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+ /*  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background 
+  background-color: #fff;
+   Not removed via appearance 
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  
+  
+  display: grid;
+  place-content: center;
+  
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+/*
+input[type="radio"]:checked::before {
+  transform: scale(1);
+} */

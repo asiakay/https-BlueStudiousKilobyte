@@ -1,0 +1,304 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Asap&family=Fjalla+One&family=Neonderthaw&family=Open+Sans:ital,wght@0,300;1,400&family=Permanent+Marker&display=swap'); */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Itim&family=Special+Elite&family=Staatliches&family=Titan+One&display=swap&family=Acme&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&family=Neucha&display=swap');
+
+/* font-family: 'Cantarell', sans-serif;
+font-family: 'Neucha', cursive; */
+
+/* :root {
+  --form-control-color: rebeccapurple;
+} */
+
+/* *,
+*:before,
+*:after {
+  box-sizing: border-box;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4B5555;
+    /* background-image: url("goldeneggs-1200x750.jpeg"); */
+  font-size: 12px;
+  line-height: 124px;
+  color: #FFECDB;
+  /* width: 100%; */
+  /* The text size can be set with a "vw" unit, which means the "viewport width".
+
+ */
+  
+  
+/*   font-family: 'Itim', cursive; */
+/*   font-family: 'Special Elite', cursive; */
+/* font-family: 'Staatliches', cursive; */
+/* font-family: 'Titan One', cursive; */
+/* font-family: 'Staatliches', cursive; */
+}
+
+/* header */
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%;
+
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%;
+}
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: left;
+  width:20%;
+}
+
+/* media query the 800px breakpoint */
+@media screen and (max-width: 800px){
+  .left, .main, .right {
+    width: 100%; 
+    /* 800px < width=100% */
+  }
+}
+
+.center{
+  margin: 8px auto; 
+  width: 45vw; 
+  border: 0px solid green;
+  padding: 16px;
+  border-radius: 50px;
+  background: #4B5555;
+  box-shadow:  -10px -10px 30px #404848,
+             10px 10px 30px #566262;
+  text-align: left;
+/*   The text size can be set with a "vw" unit, which means the "viewport width". */
+}
+
+.glass-panel {
+  color: #fff;
+  margin: 0px auto;
+  background-color: rgba(255,255,255,0.01);
+  border: 1px solid rgba(255,255,255,0.1);
+  /* width: 80%; */
+  border-radius: 50px;
+  padding: 0px;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+ width: 45vw; 
+  }
+.topboxes {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  display: flex;
+  padding: 16px;
+  width: 45vw; 
+}
+
+.topbox {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  flex-basis: 800px;
+  height: auto;
+  width: 45vw;
+  background-color: rgb(206, 136, 136, 0.3);
+  margin: 5px;
+  padding: 32px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
+background: #4b5555;
+-webkit-box-shadow: 7px 7px 5px #404848, -7px -7px 5px #566262;
+box-shadow: 7px 7px 5px #404848, -7px -7px 5px #566262;
+/*   opacity: .5;
+ */}
+
+.topbox2 {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  font-family: 'Cantarell', sans-serif;
+  flex-basis: 800px;
+  height: auto;
+  width: 45vw;
+  background-color: rgb(206, 136, 136, 0.3);
+  margin: 5px;
+  padding: 32px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
+background: #4b5555;
+-webkit-box-shadow: 7px 7px 5px #404848, -7px -7px 5px #566262;
+box-shadow: 7px 7px 5px #404848, -7px -7px 5px #566262;
+/*   opacity: .5;
+ */}
+
+
+.hero-image {
+  /* IMAGE: Goose Golden Egg https://www.aier.org/article/golden-eggs-and-the-challenge-of-our-time/ c
+ */
+  
+
+
+
+
+
+
+
+h1 {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  font-family: 'Neucha', cursive;
+  /* font-family: 'Special Elite', cursive; */
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 8vw;
+  line-height: 8vw;
+  vertical-align: top;
+  text-decoration: underline;
+} 
+.challenge {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  font-family: 'Neucha', cursive;
+  /* font-family: 'Special Elite', cursive; */
+ /*  letter-spacing: 1em; */
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 60px;
+  letter-spacing: .03em;
+  line-height: 64px;
+}
+
+.intro {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  font-size: 4vw;
+  font-family: 'Neucha', cursive;
+}
+
+
+h2 {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  font-family: 'Neucha', cursive;
+  /* font-family: 'Special Elite', cursive; */
+  letter-spacing: .03em;
+/*   text-transform: uppercase;
+ */  text-align: justify;
+  font-size: 32px;
+  line-height: 64px;
+  text-decoration: underline;
+} 
+
+
+h3 {
+    /* The text size can be set with a "vw" unit, which means the "viewport width".
+ */
+  font-family: 'Neucha', cursive;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: underline;
+}
+
+.rules {
+  text-transform: capitalize;
+  font-family: 'Neucha', cursive;
+  font-size: 2vw;
+
+}
+
+.header-panel {
+  /* font-family: Asap, cursive;  *//* background-color:black;  */
+  color: #fff;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  /* width: 80%; */
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  }
+
+p {
+  font-family: sans-serif;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.question {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-family: 'Neucha', cursive;
+  width: 100%;
+}
+.answers {
+  text-transform: capitalize;
+  font-family: 'Neucha', cursive;
+  font-size: 64px;
+
+}
+
+.results {
+  font-size: 32px;
+  font-family: 'Neucha', cursive;
+}
